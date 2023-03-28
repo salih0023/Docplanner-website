@@ -65,17 +65,17 @@ body {
     background: #ffffff;
 }
 
+/* First section */
 .lead {
     width: 899px;
     height: 336.781px;
-    margin: 83px auto;
+    margin: 83px auto 0;
 }
 .logo-main {
     display: block;
     margin: 0 auto;
 }
 
-/* First section */
 .lead h1 {
     text-align: center;
     color: #00c3a5;
@@ -100,3 +100,41 @@ body {
 }
 
 /* Second section */
+
+.services {
+    width: 918px;
+    height: 365px;
+    margin: 3.75rem auto 2.5rem;
+    padding: 0 1.25rem;
+}
+
+/* For Grid */
+.grid {
+    padding: 10px;
+}
+
+/* FTous les col-3 */
+.col-3 {
+    width: 274px;
+    height: 345px;
+    margin: auto;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.vert {
+    background: #00c3a5;
+}
+
+.blue {
+    background: #4c89e5;
+}
+
+.dark {
+    background: #192735;
+}
+
+/* services */
+.country {
+    margin-top: 60px;
+}
