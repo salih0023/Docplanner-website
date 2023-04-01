@@ -114,7 +114,7 @@ body {
     padding: 10px;
 }
 
-/* FTous les col-3 */
+/* Tous les col-3 */
 .col-3 {
     width: 274px;
     height: 345px;
@@ -141,34 +141,58 @@ body {
 }
 
 /* section-three section global */
-
 .global {
-    width: 975px;
-    height: 159.391px;
-    margin: 2.5rem auto 3.125rem;
-    padding: 0 60px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 296px;
 }
 
-.global-company {
- list-style: none;
- display: flex;
- flex-wrap: wrap;
-}
-
-.global-company a img {
-    height: 25px;
-    width: auto;
-}
-
-.g-company {
+.global-title {
+    font-size: 1.3em;
     color: #00c3a5;
-    float: left;
-    width: 33%;
-    font-size: 1.625em;
-    font-weight: 200;
+    font-weight: 275;
+    letter-spacing: 3px;
 }
+
+.global-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    width: 67%;
+}
+
+.global-items li {
+    padding: 0 10px;
+    margin: 5px 0;
+}
+
+ svg {
+    width: 110px;
+ }
+
+ .tuotempo img {
+    width: 100px;
+ }
+
+ .jameda img {
+    width: 100px;
+ }
+
+.gipo img {
+    width: 35px;
+}
+
+.cliniccloud img {
+    width: 60px;
+}
+
+.feegow img {
+    width: 85px;
+}
+
+
+
 
 /* stats section four */
 
@@ -238,8 +262,8 @@ body {
 }
 
 .pays a img {
-    border-radius: 5px;
     width: 280px;
+    margin-bottom: -6px;
 }
 
 .pays-name {
@@ -248,7 +272,9 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 0 20px 10px;
+    padding: 0 15px 10px;
+    border-radius: 3px;
+    border: #ebebeb solid 0.01px;
 }
 
 span {
@@ -258,10 +284,10 @@ span {
     border-radius: 4px;
     background: #3d83df;
     color: #fff;
-    font-size: 12px;
+    font-size: 8.5px;
     font-weight: 500;
-    letter-spacing: .01rem;
-    padding: 5px;
+    letter-spacing: .02rem;
+    padding: 5px 10px;
 }
 
 /* Section-four / Stats */
@@ -338,7 +364,7 @@ h3 {
 }
 
 .box p {
-    font-size: 12px;
+    font-size: 11px;
     color: #615e5e;
     font-weight: 400;
 }
@@ -378,4 +404,27 @@ h3 {
     border-radius: 3px;
     letter-spacing: .04em;
     line-height: 1em;
+}
+
+/* footer */
+.main-footer .footer-inner {
+    font-size: 10px;
+    color: #ababab;
+}
+
+.main-footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.footer-inner {
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer-inner p {
+    margin: 1.3em 0;
 }
