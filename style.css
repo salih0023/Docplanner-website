@@ -117,9 +117,9 @@ body {
 /* Tous les col-3 */
 .col-3 {
     width: 274px;
-    height: 345px;
+    height: 295px;
     margin: auto;
-    padding: 10px 10px;
+    padding: 20px 20px;
     border-radius: 10px;
     color: #fff;
 }
@@ -135,9 +135,45 @@ body {
     background: #192735;
 }
 
-/* services section one */
-.country {
-    margin-top: 60px;
+.services-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-items i {
+    font-size: 20px;
+}
+
+.services-items h1 {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.services-items p {
+    font-size: 17px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.country h2 {
+    font-size: 16px;
+    font-weight: 320;
+    letter-spacing: 1.5px;
+    text-decoration: underline;
+}
+
+.services-items_patients {
+    margin-bottom: 70px;
+}
+
+.services-items_doctors {
+    margin-bottom: 93.5px;
+}
+
+.services-items_clinic {
+    margin-bottom: 40px;
 }
 
 /* section-three section global */
@@ -165,6 +201,7 @@ body {
 .global-items li {
     padding: 0 10px;
     margin: 5px 0;
+    
 }
 
  svg {
